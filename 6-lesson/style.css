@@ -1,0 +1,86 @@
+.body {
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    background-color: white;
+    width: 1550px;
+    height: 289px;
+}
+.setting {
+    width: 230px;
+    margin: 40px;
+}
+p {
+    text-align: center;
+}
+h2 {
+    font-size: 17px; 
+    text-transform: uppercase;
+    text-align: center;
+    
+   }
+
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #2a69a6;
+    background-color: #2a69a6;
+    background-image: url('img/Fast1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.icon:hover { 
+    background: url('img/Fast2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: 2px solid #2a69a6;
+
+   }
+   .phone {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #2a69a6;
+    background-color: #2a69a6;
+    background-image: url('img/phone1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.phone:hover { 
+    background: url('img/phone2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: 2px solid #2a69a6;
+
+   }
+.set {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #2a69a6;
+    background-color: #2a69a6;
+    background-image: url('img/settings1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.set:hover  { 
+    background: url('img/settings2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: 2px solid #2a69a6;
+
+   }
