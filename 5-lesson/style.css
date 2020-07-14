@@ -1,0 +1,45 @@
+body {
+   margin: 0;
+    height: 100%;
+}
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 420px;
+    background-color:  #000000;
+  }
+  .list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+      color: white;
+      text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: list-item;
+    text-align: center;
+}
+.icons {
+    margin: 15px;
+}
+ .logo {
+    text-align: center;
+    margin: 40px;
+ }
+ span {
+     color: #00c8fe;
+ }
+ footer {
+     margin-top: 100px;
+ }
