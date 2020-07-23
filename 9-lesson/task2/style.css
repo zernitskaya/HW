@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 1200px;
+    min-height: 1100px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    background-color: rgb(91, 94, 102);
+}
+.content {
+    width: 1000px;
+    border: 1px solid rgb(15, 15, 15);
+    box-shadow: 0 0 100px 40px rgb(10, 10, 10);
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: start;
+    padding: 0 100px 100px 100px;
+    box-sizing: border-box;
+    background-color: rgb(177, 199, 241);
+    font-size: larger;
+}
+.img {
+    position: absolute;
+    margin-left: -43px;
+}
+
+@font-face{
+	font-family: 'Proxima Nova';
+	src: url("../fonts/Proxima Nova Regular.otf");
+}
+@font-face{
+	font-family: "georgiai";
+	src: url("../fonts/georgiai.ttf");
+    font-style: italic;
+}
+small, 
+.where {
+    color: rgb(86, 85, 88);
+}
+h1 {
+    font-family: "georgiai";
+    padding: 50px 0 10px 0;
+    font-size: 60px;
+}
+p {
+    font-family: 'Proxima Nova';
+    padding-top: 30px;
+}
+header {
+    font-family: 'georgiai';
+    position: relative;
+    text-align: left;
+}
+.black {
+    width: 700px;
+    height: 130px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    margin-left: auto;
+    position: absolute;
+    margin-top: 47px;
+    margin-left: 281px;
+    z-index: 1;
+    margin-top: -70px;
+}
+.yellow {
+    width: 600px;
+    height: 50px;
+    background-color: rgb(255, 153, 0);
+    margin-left: auto;
+    position: absolute;
+    margin-top: 60px;
+	margin-left: 400px;
+}
+.small {
+    padding-top: 200px;
+}
