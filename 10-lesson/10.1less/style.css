@@ -1,0 +1,47 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.body {
+    width: 1500px;
+    min-height: 100vh;
+    background-image: url(img/img.png);
+    background-size: cover;
+}
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    padding: 50px 0 140px 90px;
+}
+.menu {
+    display: flex;
+    padding-top: 40px;
+}
+.menu__link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-top: 2px solid transparent;
+    padding: 20px;
+}
+.link {
+    border-top: 2px solid red;
+}
+
+.body__about{
+    padding-left: 165px;
+
+}
+.about__heading {
+    font-size: -webkit-xxx-large;
+    
+}
+.about__pharagraf {
+    width: 375px;
+}
+.button {
+    background-color: salmon;
+    padding: 10px 20px 10px 20px;
+}
