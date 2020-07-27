@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/Layer\ 1.png);
+    height: 600px;
+    text-align: center;
+}
+h2 {
+    color: rgb(10, 150, 52);
+    font-size: -webkit-xxx-large;
+    
+}
+.gold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 362px;
+    height: 465px;
+    background-color: azure;
+    margin: 55px 30px 55px 10px;
+    box-shadow: 0 0 30px 1px black;
+    border-radius: 10px;
+}
+p {
+    padding-bottom: 36px;
+    color: grey;
+    font-weight: bold;
+}
+h3 {
+    font-weight: inherit;
+    font-size: xxx-large;
+    font-family: 'Poppins', sans-serif;
+}
+.img {
+    position: relative;
+    padding-top: 58px;
+}
+ .gold:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    position: relative;
+    width: 366px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 33px;
+}
+.bean {
+    position: absolute;
+    left: 38px;
+    top: 70px;
+}
+.smoke {
+    position: absolute;
+    left: 38px;
+    top: 0;
+
+}
