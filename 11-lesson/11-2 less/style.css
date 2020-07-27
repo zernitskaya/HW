@@ -1,0 +1,61 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+small {
+    font-family: 'Amiri', serif;
+    padding-top: 20px;
+}
+.wrapper {
+   margin: 0 auto;
+    background-color: rgb(223, 215, 241);
+    padding: 50px;
+    width: 1600px;
+}
+.page {
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.blog {
+    width: 360px;
+    height: 545px;
+    background-color: white;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+.car {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(rgb(255 0 0 / 2%), rgb(19 18 18 / 83%)), url(img/Layer\ 8.png);
+    background-size: 100% 150px, auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 740px;
+    height: 545px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.text {
+    padding: 100px 10px;
+}
+
+.avatar {
+    position: absolute;
+    bottom: 15px;
+    
+}
+.vector {
+    text-align: center;
+    padding-top: 40px;
+
+}
+.load {
+    vertical-align: middle;
+    margin-right: 5px;
+}
