@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    background-image: url(img/bg-modal.jpg);
+    background-size: cover;
+    position: relative;
+}
+.container::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(#bf6dd6c9,#2e21aacf);
+}
+
+
+.check {
+    /* display: flex; */
+    position: relative;
+    padding: 54px 54px;
+}
+.input1,
+.input2,
+#radio {
+    display: none;
+}
+label {
+    color: white;
+}
+.input1:checked ~ .label1 {
+    border-bottom: 1px solid red;
+    font-weight: bold;
+}
+.input2:checked ~ .label2 {
+    border-bottom: 1px solid red;
+    font-weight: bold;
+}
+.block1,
+.block2 {
+    display: none;
+
+}
+
+.input1:checked ~ .block1 {
+    display: block;
+    padding-top: 70px;
+}
+.input2:checked ~ .block2 {
+    display: block;
+    padding-top: 70px;
+}
+.label2 {
+    margin-left: 30px;
+}
+#user,
+#pass {
+    width: 260px;
+    height: 40px;
+    background-color: rgb(255 255 255 / 0%);
+    border: 1px solid rgb(192, 191, 191);
+    margin-bottom: 20px;
+}
+/* .label1,
+.label2 {
+    padding-left: -10px;
+} */
+.radio::before {
+content: "";
+display: inline-block;
+width: 15px;
+height: 15px;
+background-color: greenyellow;
+vertical-align: middle;
+margin-right: 10px;
+}
+.radio::after {
+    content: "";
+    position: absolute;
+    left: 53px;
+    top: 311px;
+    display: none;
+    width: 10px;
+    height: 8px;
+    padding-right: 2px; 
+    border-left: 2px solid red;
+    border-top: 2px solid red;
+    transform: rotate(225deg);
+}
+ #radio:checked ~ .radio::after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 53px;
+    top: 311px;
+    width: 10px;
+    height: 8px;
+    padding-right: 2px; 
+    border-left: 2px solid red;
+    border-top: 2px solid red;
+    transform: rotate(225deg);
+}
+.button {
+    width:  260px;
+    height: 40px;
+    background-color: #23ae92;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+}
+a {
+    color: #ffffff96;
+    padding-right: 15px;
+    /* font-weight: 100; */
+}
