@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    margin-top: 50px;
+}
+
+h1 {
+   margin: 30px;
+   font-size: 50px;
+   color: rgb(38, 206, 228);
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+}
+
+.option {
+   width: 235px;
+   border: 1px solid grey;
+   background-color: #f0f8fe;
+}
+
+.img {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    padding: 20px;
+}
+
+.option:hover {
+    background-color: rgb(38, 206, 228);
+    color: white;
+}
+
+.img1 {
+    background-image: url(img/anhore1.svg);
+}
+
+.option:hover .img1 {
+    background-image: url(img/anhore2.svg);
+}
+
+.img2 {
+    background-image: url(img/diamond1.svg);
+}
+
+.option:hover .img2 {
+    background-image: url(img/diamond2.svg);
+}
+
+.img3 {
+    background-image: url(img/glass1.svg);
+}
+
+.option:hover .img3 {
+    background-image: url(img/glass2.svg);
+}
+
+.img4 {
+    background-image: url(img/monitor1.svg);
+}
+
+.option:hover .img4 {
+    background-image: url(img/monitor2.svg);
+}
