@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(/img/images10/img.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  padding: 50px 0 140px 90px;
+}
+
+.header__menu {
+  display: flex;
+  padding-top: 40px;
+  list-style: none;
+}
+
+.menu__list {
+  font-weight: bold;
+  border-top: 2px solid transparent;
+  padding: 20px;
+}
+
+.menu__link {
+  color: black;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  border-top: 2px solid red;
+}
+
+.header__title {
+  padding-left: 165px;
+}
+
+.title__heading {
+  font-size: -webkit-xxx-large;
+}
+
+.title__pharagraf {
+  width: 375px;
+  padding-top: 20px;
+}
+
+.title__button {
+  color: white;
+  background-color: salmon;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+}
+
+.title__skroll {
+  text-align: center;
+  padding-top: 320px;
+}
+
+.about {
+  display: flex;
+  background-color: #00b8b8;
+}
+
+.about__text {
+  color: white;
+  margin: 180px 50px;
+  width: 500px;
+}
+
+.about__heading {
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #70bfff;
+}
+
+.nav-servise {
+  margin: 100px 0;
+}
+.nav-servise__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  background: #fff;
+  margin: 10px;
+  padding-left: 10px;
+}
+.nav-servise__link {
+  padding-right: 20px;
+}
+
+.service {
+  width: 400px;
+  height: 450px;
+  background-image: url(/img/images15/img.png);
+  background-size: cover;
+  position: relative;
+}
+.service__logo {
+  position: absolute;
+  text-align: center;
+  margin-top: 200px;
+  font-size: xxx-large;
+  font-weight: bolder;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.conteiner-gallery {
+  text-align: center;
+  background-color: #ffe92f;
+}
+
+.title-gallery__logo {
+  font-size: 100px;
+  padding-top: 100px;
+}
+.title-gallery__text {
+  padding: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.gallery__wrap {
+  display: flex;
+  flex-direction: column;
+}
+.gallery__wrap-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  font-size: x-large;
+  background-color: #5585a2;
+  margin: 50px 0 120px;
+}
+
+.subscribe {
+  text-align: center;
+  background: url(/img/images15.3/subscribe.png) center no-repeat;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blog {
+  background-color: #a257e9;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.blog__header {
+  margin: 0 auto;
+}
+.blog__header__title {
+  text-align: center;
+  color: white;
+  font-size: 90px;
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+.blog__header__pharagraf {
+  text-align: center;
+  color: white;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.blog-photo {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.blog-photo__section {
+  display: flex;
+  box-shadow: 0 0 0 1px #52539e, 0 0 100px #333;
+  margin: 30px;
+}
+.blog-photo__pic {
+  width: 370px;
+  height: 300px;
+  position: absolute;
+}
+.blog-photo__text {
+  color: white;
+  width: 370px;
+  height: 300px;
+  position: relative;
+  text-align: start;
+}
+.blog-photo__data {
+  font-size: 30px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.24);
+  width: 50px;
+  margin: 20px;
+  border-radius: 10%;
+}
+.blog-photo__img {
+  width: 100%;
+  height: 300px;
+}
+.blog-photo__small {
+  padding-left: 20px;
+}
+
+.blog-photo__pic::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 160px;
+  background-image: linear-gradient(rgba(226, 227, 243, 0), #07081a);
+}
+
+.blog-photo__title {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.blog-btn {
+  display: flex;
+  justify-content: center;
+}
+.blog-btn__button {
+  padding: 20px;
+  background-color: #e64040;
+  width: 200px;
+  height: 60px;
+  color: white;
+  box-shadow: 0 1px 10px #333;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */

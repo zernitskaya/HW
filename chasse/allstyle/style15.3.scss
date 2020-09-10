@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    // box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteiner-gallery {
+    text-align: center;
+    // margin-top: 100px;
+    background-color: #ffe92f;
+}
+
+.title-gallery {
+    &__logo {
+        font-size: 100px;
+        padding-top: 100px;
+    }
+        
+    &__text {
+        padding: 50px;
+        width: 400px;
+        // text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        // margin-top: 10px;
+    }
+    &__wrap-bottom {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        // padding: 7px 0
+    }
+    
+ }
+    .btn {
+        width: 200px;
+        height: 50px;
+        font-size: x-large;
+        background-color: #5585a2;
+        margin: 50px 0 120px;
+  }
+
+  .subscribe {
+        // padding-left: 165px;
+        // padding-right: 165px;
+        // margin: 0 auto;
+        text-align: center;
+        background: url(/img/images15.3/subscribe.png) center no-repeat;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      
+
+    //   height: 400px;
+    //   background-image: url(/img/subscribe.png);
+    // //   background-size: cover;
+    // background-position: right;
+    // background-repeat: no-repeat;
+    // // text-align: center;
+    // margin: 0 auto;
+  }
