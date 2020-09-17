@@ -1,0 +1,18 @@
+@import 'header';
+@import 'service';
+@import 'gallery';
+@import 'blog';
+@import 'form_contact';
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+
+    @media screen and (max-width:992px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width:576px) {
+        font-size: x-small;
+    }
+}

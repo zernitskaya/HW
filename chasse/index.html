@@ -5,50 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
+
+    <header class="header" id="home">
+        <div class="container">
             <div class="header__container">
                 <div class="header__logo">
                     <img src="/img/images10/11.png" alt="" class="header__img">
                 </div>
-
                 <ul class="menu header__menu">
-                    <li class="menu__list"><a href="#" class="menu__link">HOME</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">ABOUT</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">SERVICES</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">GALLERY</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">BLOG</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">CONTACT</a></li>
+                    <li class="menu__list"><a href="#home" class="menu__link">HOME</a></li>
+                    <li class="menu__list"><a href="#about" class="menu__link">ABOUT</a></li>
+                    <li class="menu__list"><a href="#services" class="menu__link">SERVICES</a></li>
+                    <li class="menu__list"><a href="#gallery" class="menu__link">GALLERY</a></li>
+                    <li class="menu__list"><a href="#blog" class="menu__link">BLOG</a></li>
+                    <li class="menu__list"><a href="#contact" class="menu__link">CONTACT</a></li>
                 </ul>
             </div>
-
             <div class="title header__title">
                 <div class="title__container">
                     <h1 class="title__heading">
                         Fresh Life
                     </h1>
-
                     <p class="title__pharagraf">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Eum veritatis pariatur exercitationem quas eos totam ratione.
                         Necessitatibus reiciendis ducimus velit!
                     </p>
-
                     <button class="title__button">GET FREE NOW</button>
                 </div>
             </div>
+        </div>
+    </header>
 
-            <div class="title__skroll">
-                <img src="/img/images10/scroll.png" alt="">
-            </div>
-        </header>
-
-        <div class="about">
+    <section class="about" id="about">
+        <div class="container cont-about">
             <div class="about__img">
                 <img src="/img/images10/img1.png" alt="">
             </div>
@@ -57,153 +52,185 @@
                 <h2 class="about__heading">About us</h2>
                 <p class="about__pharagraf">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                    ultrices
                     gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                 </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="wrap">
-        <div class="nav-servise">
-            <div class="nav-servise__select">
-                online shopping
-                <a class="nav-servise__link" href="#"><img src="./img/images15/2.svg" alt=""></a>
-            </div>
-            <div class="nav-servise__select">
-                Quality Product
-                <a class="nav-servise__link" href="#"><img src="./img/images15/2.svg" alt=""></a>
-            </div>
-            <div class="nav-servise__select">
-                Domestic & International Delivery
-                <a class="nav-servise__link" href="#"><img src="./img/images15/2.svg" alt=""></a>
-            </div>
-            <div class="nav-servise__select">
-                Well Organized
-                <a class="nav-servise__link" href="#"><img src="./img/images15/ic.svg" alt=""></a>
+    <section class="wrap" id="services">
+        <div class="container">
+            <div class="servise-wrap">
+                <div class="nav-servise">
+                    <div class="nav-servise__select">
+                        online shopping
+                        <a class="nav-servise__link" href="#"><img src="./img/images15/2.svg" alt=""></a>
+                    </div>
+                    <div class="nav-servise__select">
+                        Quality Product
+                        <a class="nav-servise__link" href="#"><img src="./img/images15/2.svg" alt=""></a>
+                    </div>
+                    <div class="nav-servise__select">
+                        Domestic & International Delivery
+                        <a class="nav-servise__link" href="#"><img src="./img/images15/2.svg" alt=""></a>
+                    </div>
+                    <div class="nav-servise__select">
+                        Well Organized
+                        <a class="nav-servise__link" href="#"><img src="./img/images15/ic.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="service">
+                    <h1 class="service__logo">
+                        Our Services
+                    </h1>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="service">
-            <h1 class="service__logo">
-                Our Services
-            </h1>
+
+    <section class="conteiner-gallery" id="gallery">
+        <div class="container">
+            <div class="title-gallery">
+                <h1 class="title-gallery__logo">GALLERY</h1>
+                <p class="title-gallery__text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero obcaecati officia
+                    amet aliquid nostrum minima quisquam dolor totam perferendis expedita?
+                </p>
+            </div>
+            <div class="cont__gallery">
+                <div class="gallery">
+                    <div class="gallery__wrap-big">
+                        <img src="img/images15.3/img.png" alt="" class="gallery__pic">
+                    </div>
+                    <div class="gallery__wrap">
+                        <img src="img/images15.3/img2.png" alt="" class="gallery__pic">
+                        <img src="./img/images15.3/img3.png" alt="" class="gallery__pic">
+                    </div>
+                </div>
+                <div class="gallery__wrap-bottom">
+                    <div class="one"><img src="./img/images15.3/img4.png" alt="" class="gallery__pic"></div>
+                    <div class="twu"><img src="./img/images15.3/img5.png" alt="" class="gallery__pic"></div>
+
+                </div>
+            </div>
+            <button class="btn">view more</button>
         </div>
-    </div>
+    </section>
 
-    <div class="conteiner-gallery">
-        <div class="title-gallery">
-            <h1 class="title-gallery__logo">GALLERY</h1>
-            <p class="title-gallery__text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Libero obcaecati officia
-                amet aliquid nostrum minima quisquam dolor totam perferendis expedita?
+
+    <section class="subscribe">
+        <div class="container">
+            <h2 class="subscribe__logo">
+                Subscribe To Us
+            </h2>
+            <p class="subscribe__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Non nobis ipsum explicabo nihil earum minus?
             </p>
+            <input type="text" class="subscribe__serch">
+            <button class="subscribe__btn">subscribe</button>
         </div>
+    </section>
 
-        <div class="gallery">
-            <div class="gallery__wrap-big">
-                <img src="img/images15.3/img.png" alt="" class="gallery__pic">
-            </div>
-            <div class="gallery__wrap">
-                <img src="img/images15.3/img2.png" alt="" class="gallery__pic">
-                <img src="./img/images15.3/img3.png" alt="" class="gallery__pic">
-            </div>
-        </div>
-        <div class="gallery__wrap-bottom">
-            <img src="./img/images15.3/img4.png" alt="" class="gallery__pic">
-            <img src="./img/images15.3/img5.png" alt="" class="gallery__pic">
-        </div>
-
-        <button class="btn">view more</button>
-
-    </div>
-
-    <div class="subscribe">
-        <h2 class="subscribe__logo">
-            Subscribe To Us
-        </h2>
-        <p class="subscribe__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Non nobis ipsum explicabo nihil earum minus?
-        </p>
-
-        <input type="text" class="subscribe__serch">
-
-        <button class="subscribe__btn">subscribe</button>
-    </div>
-
-    <div class="blog">
-
-        <div class="blog__header">
-
-            <h1 class="blog__header__title">Blog</h1>
-
-            <p class="blog__header__pharagraf">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quidem dolores maxime unde nemo ipsum cum obcaecati quas
-                asperiores eveniet et molestias aliquid modi, officia esse
-            </p>
-
-
-        </div>
-
-        <div class="blog-photo">
-
-            <div class="blog-photo__section">
-                <div class="blog-photo__pic">
-                    <img class="blog-photo__img" src="./img/img7/img.png" alt="">
-                </div>
-
-                <div class="blog-photo__text">
-                    <div class="blog-photo__data">20 <br>
-                        nov </div>
-                    <h2 class="blog-photo__title">
-                        Green Smoothies: Too Much of a Good Thing?
-                    </h2>
-                    <small class="blog-photo__small">By Auskteez - 2 hours ago</small>
-                </div>
-
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="blog__header">
+                <h1 class="blog__title">Blog</h1>
+                <p class="blog__pharagraf">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem dolores maxime unde nemo ipsum cum obcaecati quas
+                    asperiores eveniet et molestias aliquid modi, officia esse
+                </p>
             </div>
 
-            <div class="blog-photo__section">
-                <div class="blog-photo__pic">
-                    <img class="blog-photo__img" src="./img/img7/gorohhh.png" alt="">
+            <div class="blog-photo">
+
+                <div class="blog-photo__section bg1">
+                    <div class="blog-photo__text">
+                        <div class="blog-photo__data">20 <br>
+                            nov </div>
+                        <h2 class="blog-photo__title">
+                            Green Smoothies: Too Much of a Good Thing?
+                        </h2>
+                        <small class="blog-photo__small">By Auskteez - 2 hours ago</small>
+                    </div>
+
                 </div>
 
-                <div class="blog-photo__text">
-                    <div class="blog-photo__data">20
-                        nov </div>
-                    <h2 class="blog-photo__title">
-                        Growing Food and a “Thirst” for Innovation
-                    </h2>
-                    <small class="blog-photo__small"> By Auskteez - 3 hours ago</small>
+                <div class="blog-photo__section bg2">
+                    <div class="blog-photo__text">
+                        <div class="blog-photo__data">20
+                            nov </div>
+                        <h2 class="blog-photo__title">
+                            Growing Food and a “Thirst” for Innovation
+                        </h2>
+                        <small class="blog-photo__small"> By Auskteez - 3 hours ago</small>
+                    </div>
+                </div>
+
+                <div class="blog-photo__section bg3 gr3">
+                    <div class="blog-photo__text">
+                        <div class="blog-photo__data">20 <br>
+                            nov </div>
+                        <h2 class="blog-photo__title">
+                            Pesticides & Food: What You Need to Know
+                        </h2>
+                        <small class="blog-photo__small">By Auskteez - 6 hours ago</small>
+                    </div>
                 </div>
             </div>
+            <div class="blog-btn">
+                <button type="button" class="blog-btn__button">VIEW MORE</button>
+            </div>
 
-            <div class="blog-photo__section">
-                <div class="blog-photo__pic">
-                    <img class="blog-photo__img" src="./img/img7/red.png" alt="">
-                </div>
+        </div>
+    </section>
 
-                <div class="blog-photo__text">
-                    <div class="blog-photo__data">20 <br>
-                        nov </div>
-                    <h2 class="blog-photo__title">
-                        Pesticides & Food: What You Need to Know
-                    </h2>
-                    <small class="blog-photo__small">By Auskteez - 6 hours ago</small>
+
+    <section class="contact" id="contact">
+
+        <div class="contact__header">
+            <div class="container">
+                <h2 class="contact__logo">Contact</h2>
+                <p class="contact__text">For new projects, ideas, business or anything you'd like to
+                    disscus contact with me
+                </p>
+            </div>
+
+            <div class="contact__form">
+                <form action="#" method="GET">
+                    <div>
+                        <input tabindex="1" name="username" type="text" placeholder="Your name" required>
+                    </div>
+                    <div>
+                        <input tabindex="2" type="text" name="email adress" placeholder="Your email" required>
+                    </div>
+                    <div>
+                        <input tabindex="3" type="tel" name="number" placeholder="Your phone number" required>
+                    </div>
+                    <div>
+                        <textarea tabindex="4" name="text" placeholder="Your masage"></textarea>
+                    </div>
+                </form>
+
+                <div class="contacts contact__contacts">
+                    <h2 class="contacts__text">ADDRESS</h2>
+                    <p>123 City name, Street, City, Country</p>
+                    <h2 class="contacts__text">EMAIL</h2>
+                    <p> cahee@domain.com</p>
+                    <h2 class="contacts__text">PHONE</h2>
+                    <p>+12 345 67 89</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="blog-btn">
-            <button type="button" class="blog-btn__button">VIEW MORE</button>
-        </div>
-
-    </div>
-
-
-
-
+    <footer class="footer">
+        <p class="footer__pharagraf">© 2015 Company. All right reserved.</p>
+        <p class="footer__pharagraf">Made with <span> love </span> by Auskteez</p>
+    </footer>
 </body>
 
 </html>
