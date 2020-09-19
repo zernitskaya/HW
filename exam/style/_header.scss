@@ -1,0 +1,118 @@
+.header {
+    height: 45px;
+    background-color: #333333;
+}
+
+.content {
+    // margin: 0 135px;
+    // width: 80%;
+    max-width: 1770px;
+    margin: 0 auto;
+    display: flex;
+    // justify-content: space-between;
+    text-transform: uppercase;
+
+}
+
+.title {
+    background-image: url(/img/layers.jpg);
+    background-repeat: no-repeat;
+    // background-position: center;
+    background-size: cover;
+    height: 920px;
+    padding-top: 40px;
+}
+
+.title__wrap-logo {
+    margin-left: 73px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #222222;
+}
+
+.title__wrap-menu {
+    margin-left: auto;
+}
+
+.title__menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.title__list {
+    position: relative;
+}
+
+.title__hover {
+    // display: none;
+    width: 467px;
+    height: 527px;
+    color: black;
+    position: absolute;
+    background-color: blue;
+}
+
+.title__nav {
+    padding-left: 49px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    letter-spacing: 0.05em;
+}
+
+.title__nav:hover {
+    color: aqua;
+
+}
+
+.hover__submenu {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+    border: 2px solid blue;
+    // background-color: #333333;
+}
+
+
+.title__list:hover .title__hover {
+    display: block;
+
+}
+
+.title__wrap-logo {
+    // margin-left: auto;
+}
+
+.casual-menu__nav {
+    color: #727272;
+    // background-color: #333333;
+}
+
+.hover__text {
+    width: 407px;
+    height: 200px;
+    background-color: #333333;
+    margin: 0 auto;
+}
+
+.hover__pharagraf {
+    text-align: center;
+    font-size: 36px;
+    line-height: 58px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    padding-top: 44px;
+    margin-top: 105px;
+}
