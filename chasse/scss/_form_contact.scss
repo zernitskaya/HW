@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+.contact {
+    margin: 0 auto;
+    background-image: url(/img/imgcontsct/img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__header {
+        text-align: center;
+        padding: 50px;
+
+        @media screen and (max-width:992px) {
+            text-align: center;
+            width: 400px;
+            padding: 5px;
+        }
+    }
+
+    &__logo {
+        font-size: -webkit-xxx-large;
+        font-weight: bolder;
+    }
+
+    &__text {
+        @media screen and (max-width:576px) {
+            display: none;
+        }
+    }
+
+    &__form {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+        @media screen and (max-width:992px) {
+            display: flex;
+            justify-content: left;
+            margin: 30px;
+        }
+
+        @media screen and (max-width:576px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            margin: 0;
+        }
+    }
+
+}
+
+input {
+    margin: 20px;
+    background-color: rgb(123 238 199 / 35%);
+    width: 500px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 20px;
+
+    @media screen and (max-width:992px) {
+        width: 400px;
+    }
+
+    @media screen and (max-width:576px) {
+        width: 300px;
+    }
+}
+
+input:focus,
+textarea:focus {
+    background: rgb(157, 208, 221);
+    border-left: 3px solid #29B0D9;
+    cursor: pointer;
+}
+
+textarea {
+    margin: 20px;
+    background-color: rgb(123 238 199 / 35%);
+    width: 500px;
+    height: 250px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 20px;
+
+    @media screen and (max-width:992px) {
+        width: 400px;
+    }
+
+    @media screen and (max-width:576px) {
+        width: 300px;
+    }
+}
+
+
+.contacts {
+    padding-left: 100px;
+
+    @media screen and (max-width:992px) {
+        padding-left: 50px;
+    }
+
+    @media screen and (max-width:576px) {
+        padding: 0;
+        margin-top: 0;
+    }
+}
+
+.contacts__text {
+    padding: 15px 0 15px 0;
+}
+
+.footer {
+    background-image: url(/img/imgcontsct/2ce2f1a8-b7e4-4049-b913-a512e8c92354.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #262626;
+    color: white;
+    padding: 20px 0;
+
+    @media screen and (max-width:992px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.footer__pharagraf {
+    margin: 40px;
+}
+
+span {
+    color: #6e2837;
+    font-weight: bolder;
+}
